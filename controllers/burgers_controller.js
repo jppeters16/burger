@@ -1,5 +1,5 @@
 var express = require("express");
-//var burgers = require("../public/assets/js/burgers.js");
+var burgers = require("../models/burger.js");
 var router = express.Router();
 
 router.get("/", function(req, res) {
